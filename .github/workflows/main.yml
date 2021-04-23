@@ -21,5 +21,7 @@ jobs:
         channel: 'stable' # or: 'beta' or 'dev'
     - name: Install app dependencies
       run: flutter pub get
+    - name: Analyze Dart
+      uses: zgosalvez/github-actions-analyze-dart@v1.5.1  
     - name: Test app
       run: flutter test
