@@ -40,7 +40,8 @@ jobs:
       with:
         channel: 'stable' # or: 'beta' or 'dev'
     - name: Install app dependencies
-      run: flutter pub get  
+      run: flutter pub get 
+    - name: Clean Flutter   
       run: flutter clean
     - name: Build ios ipa
       run: flutter build ios --no-codesign    
@@ -60,6 +61,7 @@ jobs:
         channel: 'stable' # or: 'beta' or 'dev'
     - name: Install app dependencies
       run: flutter pub get  
+    - name: Flutter Clean  
       run: flutter clean
     - name: Build Android appbundle 
       run: flutter build appbundle      
