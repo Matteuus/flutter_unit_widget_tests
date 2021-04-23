@@ -1,3 +1,5 @@
+[![Test](https://github.com/Matteuus/flutter_unit_widget_tests/actions/workflows/main.yml/badge.svg)](https://github.com/Matteuus/flutter_unit_widget_tests/actions/workflows/main.yml)
+
 # testtypes
 
 A new Flutter project.
