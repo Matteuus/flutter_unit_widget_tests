@@ -46,7 +46,7 @@ jobs:
     - name: Build ios ipa
       run: flutter build ios --no-codesign    
 
-    build_appbundle:
+  build_appbundle:
     name: Build Flutter (Android)
     needs: [flutter_test]
     runs-on: ubuntu-latest
