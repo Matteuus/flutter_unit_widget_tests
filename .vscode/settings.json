@@ -1,0 +1,7 @@
+{
+    "dart.flutterSdkPath": "/Users/mateusdaniel/development/flutter2/flutter",
+    "yaml.schemas": {
+        "file:///Users/mateusdaniel/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+        "https://json.schemastore.org/github-workflow.json": "file:///Users/mateusdaniel/flutter/flutter_unit_widget_tests/.github/workflows/build.yml"
+    }
+}
