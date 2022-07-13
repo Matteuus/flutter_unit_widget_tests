@@ -18,4 +18,4 @@ params:
   GIT_BRANCH: master
 
 run:
-  path: flutter_unit_widget_tests/.github/workflows
+  path: flutter_unit_widget_tests/.github/workflows/test
