@@ -1,0 +1,12 @@
+
+
+#!/bin/bash
+
+echo "Veryfing flutter"
+flutter doctor
+
+echo "Running tests"
+flutter test
+
+echo "Analyzing code"
+flutter analyze
