@@ -1,0 +1,21 @@
+---
+platform: linux
+
+image_resource:
+  type: registry-image
+  source:
+    repository: cirrusci/flutter:1.22.5
+    tag: 1
+
+inputs:
+- name: flutter_unit_widget_tests
+
+caches:
+- path: flutterpath/
+
+params:
+  COVERALLS_TOKEN:
+  GIT_BRANCH: master
+
+run:
+  path: flutter_unit_widget_tests/.github/workflows
