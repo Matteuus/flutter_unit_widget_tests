@@ -4,8 +4,8 @@ platform: linux
 image_resource:
   type: registry-image
   source:
-    repository: cirrusci/flutter:1.22.2
-    tag: 1
+    repository: cirrusci/flutter
+    tag: 1.22.2
 
 inputs:
 - name: flutter_unit_widget_tests
